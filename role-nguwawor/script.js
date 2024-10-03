@@ -22,7 +22,8 @@ const roles = [
     "Burik",
     "Boti",
     "Albino",
-    "Cantik"
+    "Cantik",
+    "Wota",
 ];
 
 const generateButton = document.getElementById("generateButton");
