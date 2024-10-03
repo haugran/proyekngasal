@@ -20,9 +20,9 @@ const roles = [
     "Kaya Raya",
     "Rizz abiez",
     "Burik",
-    "Boti,
+    "Boti",
     "Albino",
-    "Cantik",
+    "Cantik"
 ];
 
 const generateButton = document.getElementById("generateButton");
