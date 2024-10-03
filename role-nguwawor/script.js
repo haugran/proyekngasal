@@ -19,8 +19,8 @@ const roles = [
     "Cina",
     "Kaya Raya",
     "Rizz abiez",
-    "Buriq",
-    "Warik",
+    "Burik",
+    "Boti,
     "Albino",
     "Cantik",
 ];
