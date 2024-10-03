@@ -41,7 +41,7 @@ generateButton.addEventListener("click", function() {
         roleResult.textContent = ""; 
         loading.style.display = "flex"; // Tampilan popup loading layout fleksibel
 
-        // Simulate 3 seconds loading
+        // Simulasi loading 3 detik
         setTimeout(function() {
             const randomRole = roles[Math.floor(Math.random() * roles.length)];
             roleResult.textContent = `${name}, role kamu adalah: ${randomRole}`;
