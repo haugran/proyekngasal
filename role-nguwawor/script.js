@@ -18,7 +18,11 @@ const roles = [
     "Nigga",
     "Cina",
     "Kaya Raya",
-    "Rizz abiez"
+    "Rizz abiez",
+    "Buriq",
+    "Warik",
+    "Albino",
+    "Cantik",
 ];
 
 const generateButton = document.getElementById("generateButton");
