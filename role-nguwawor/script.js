@@ -50,7 +50,7 @@ generateButton.addEventListener("click", function() {
             
             // Menyembunyikan popup loading setelah 3 detik
             loading.style.display = "none";
-        }, 3000);
+        }, 2500);
     }
 });
 
