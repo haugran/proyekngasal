@@ -50,9 +50,9 @@ generateButton.addEventListener("click", function() {
             const randomRole = roles[Math.floor(Math.random() * roles.length)];
             roleResult.textContent = `${name}, role kamu adalah: ${randomRole}`;
             
-        // Menyembunyikan popup loading setelah 2,5 detik
+        // Menyembunyikan popup loading setelah 2 detik
             loading.style.display = "none";
-        }, 2500);
+        }, 2000);
     }
 });
 
