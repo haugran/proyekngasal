@@ -1,5 +1,5 @@
 const roles = [
-    "Seleb",
+    "Artis",
     "Rasis",
     "Cabul",
     "Sepuh",
@@ -7,10 +7,11 @@ const roles = [
     "Pedo",
     "Jomok",
     "Cakep",
-    "Jelek",
-    "Pemula",
+    "Kroco",
     "Mewing",
-    "Unlimited Aura",
+    "Klemer",
+    "Wibu",
+    "Tukang bully",
     "Pintar",
     "Bego",
     "Skibidi",
@@ -18,12 +19,10 @@ const roles = [
     "Nigga",
     "Cina",
     "Kaya Raya",
-    "Rizz abiez",
     "Burik",
     "Boti",
-    "Albino",
-    "Cantik",
-    "Wota",
+    "Fomo",
+    "Wota"
 ];
 
 const generateButton = document.getElementById("generateButton");
