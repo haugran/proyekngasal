@@ -1,5 +1,7 @@
 const roles = [
     "Artis",
+    "Chef",
+    "Suki"
     "Rasis",
     "Cabul",
     "Sepuh",
@@ -11,7 +13,7 @@ const roles = [
     "Mewing",
     "Klemer",
     "Wibu",
-    "Tukang bully",
+    "Tukang Bully",
     "Pintar",
     "Bego",
     "Skibidi",
