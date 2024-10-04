@@ -52,7 +52,7 @@ generateButton.addEventListener("click", function() {
             
         // Menyembunyikan popup loading setelah 2,5 detik
             loading.style.display = "none";
-        }, 10000);
+        }, 2500);
     }
 });
 
