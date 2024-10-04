@@ -28,7 +28,7 @@ const roles = [
     "Tobrut"
 
 ];
-
+// Akses elemen-elemen HTML
 const generateButton = document.getElementById("generateButton");
 const nameInput = document.getElementById("nameInput");
 const roleResult = document.getElementById("roleResult");
@@ -41,7 +41,7 @@ generateButton.addEventListener("click", function() {
     if (name === "") {
         roleResult.textContent = "Masukin nama kamu!";
     } else {
-        // Menghapus hasil sebelumnya menampilkan animasi loading
+        // Menghapus hasil sebelumnya & menampilkan animasi loading
         roleResult.textContent = ""; 
         loading.style.display = "flex"; // Tampilan popup loading layout fleksibel
 
@@ -50,7 +50,7 @@ generateButton.addEventListener("click", function() {
             const randomRole = roles[Math.floor(Math.random() * roles.length)];
             roleResult.textContent = `${name}, role kamu adalah: ${randomRole}`;
             
-            // Menyembunyikan popup loading setelah 2,5 detik
+        // Menyembunyikan popup loading setelah 2,5 detik
             loading.style.display = "none";
         }, 2500);
     }
