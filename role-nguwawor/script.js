@@ -18,13 +18,15 @@ const roles = [
     "Bego",
     "Skibidi",
     "Jawir",
-    "Nigga",
+    "Sombong",
     "Cina",
     "Kaya Raya",
     "Burik",
     "Boti",
     "Fomo",
-    "Wota"
+    "Wota",
+    "Tobrut"
+
 ];
 
 const generateButton = document.getElementById("generateButton");
