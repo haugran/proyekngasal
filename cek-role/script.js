@@ -45,6 +45,7 @@ generateButton.addEventListener("click", function() {
 
         // Simulasi loading 3 detik
         setTimeout(function() {
+        // Memilih salah satu role di  daftar secara acak saat klik tombol "Cek"
             const randomRole = roles[Math.floor(Math.random() * roles.length)];
             roleResult.textContent = `${name}, role kamu adalah: ${randomRole}`;
             
