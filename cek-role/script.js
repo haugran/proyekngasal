@@ -18,14 +18,12 @@ const roles = [
     "Bego",
     "Skibidi",
     "Jawir",
-    "Sombong",
     "Cina",
     "Kaya Raya",
     "Burik",
     "Boti",
     "Fomo",
-    "Wota",
-    "Tobrut"
+    "Wota"
 
 ];
 // Akses elemen-elemen HTML
