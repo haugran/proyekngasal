@@ -23,8 +23,9 @@ const roles = [
     "Burik",
     "Boti",
     "Fomo",
-    "Wota"
-
+    "Wota",
+    "Tobrut"
+    
 ];
 // Akses elemen-elemen HTML
 const generateButton = document.getElementById("generateButton");
@@ -49,7 +50,7 @@ generateButton.addEventListener("click", function() {
             const randomRole = roles[Math.floor(Math.random() * roles.length)];
             roleResult.textContent = `${name}, role kamu adalah: ${randomRole}`;
             
-        // Menyembunyikan popup loading setelah 3 detik
+            // Menyembunyikan popup loading setelah 3 detik
             loading.style.display = "none";
         }, 3000);
     }
