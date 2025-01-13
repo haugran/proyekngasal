@@ -34,6 +34,7 @@ const roles = [
     "Smartest Human Exist",
     "Mario Mushroom",
     "Domain Expansion",
+    " Furry",
     "Bacon Exploiter",
     "Bloxfruit",
     "Jamaican",
@@ -64,7 +65,6 @@ const roles = [
     "Thanos Gauntlet",
     "Angry Chinese Burp",
     "Ancient Egyptian Testicle Slap"
-    
 ];
 const generateButton = document.getElementById("generateButton");
 const nameInput = document.getElementById("nameInput");
@@ -92,5 +92,8 @@ generateButton.addEventListener("click", function() {
 nameInput.addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
         generateButton.click();
+
+        
+        nameInput.blur();
     }
 });
